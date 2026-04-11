@@ -12,12 +12,3 @@ namespace WindowsFormsApp1
         new Ropa { Nombre = nombre, PrecioInicial = precio, EsLiquidacion = true };
     }
 }
-using System.Collections.Generic;
-using System.Text;
-
-namespace SubastaSupermercado
-{
-    internal class RopaFactory
-    {
-    }
-}
