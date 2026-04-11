@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace SubastaSupermercado
+namespace WindowsFormsApp1
 {
-    internal class ProductoFactory
+    public abstract class ProductoFactory
     {
+        public abstract Producto CrearProducto(string nombre, decimal precio);
     }
 }
